@@ -1,0 +1,349 @@
+*{
+  box-sizing: border-box;
+}
+.logo{
+  background-color: white;
+  border: 2px solid black;
+  width: 165px;
+  height: 165px;
+  margin: 15px 0px 0px 5px;
+  border-radius: 10px;
+  position: relative
+}
+#imglogo{
+  position: absolute;
+  width: 151.5px;
+  height:151.5px;
+  border-radius: 10px
+}
+.busca{
+  background-color: white;
+  border: 2px solid black;
+  width: 380px;
+  height: 30px;
+  margin: -155px 0px 0px 250px;
+  border-radius: 5px;
+}
+.escritabuscas:hover{
+color: purple;
+}
+.rastreamento{
+  font-family: cursive;
+  font-size: 20;
+  background-color: white;
+  border: 2px solid black;
+  width: 150px;
+  height: 30px;
+  margin: -29.5px 0px 0px 680px;
+  border-radius: 5px;
+}
+.rastreamento:hover{
+background-color: purple;
+}
+.assinatura{
+  font-family: cursive;
+  font-size: 20;
+  background-color: white;
+  border: 2px solid black;
+  width: 150px;
+  height: 30px;
+  margin: -29.5px 0px 0px 850px;
+  border-radius: 5px;
+}
+.assinatura:hover{
+  background-color: purple
+}
+.cadastro{
+  font-family: cursive;
+  font-size: 20;
+  background-color: white;
+  border: 2px solid black;
+  width: 150px;
+  height: 30px;
+  margin: -29.5px 0px 0px 1020;
+  border-radius: 5px;
+}
+.cadastro:hover{
+  background-color: purple
+}
+.carrinho{
+  font-family: cursive;
+  font-size: 20;
+  background-color: white;
+  border: 2px solid black;
+  width: 150px;
+  height: 30px;
+  margin: -29.5px 0px 0px 1190px;
+  border-radius: 5px;
+}
+.carrinho:hover{
+  background-color: purple;
+}
+#rastreamento{
+  margin: -26px 0px 0px 120px;
+  height:23px ;
+  width:23px ;
+
+
+}
+
+.opções{
+  background-color: white;
+  border: 2px solid black;
+  width: 1026.3px;
+  height: 40px;
+  margin: 45px 0px 0px 280px;
+  border-radius: 5px;
+}
+
+.opções:hover{
+  background-color: purple
+}
+.ofertas{
+  background-color: white;
+  border: 2px solid black;
+  width: 1333.8px;
+  height: 210px;
+  margin: 80px 0px 0px 5px;
+  border-radius: 50px;
+}
+#promoção1{
+    margin: 0px 0px 0px 10px;
+    width: 425px;
+    height: 205px;
+    border-radius: 15px;
+}
+#promoção2{
+    margin: 0px 0px 0px 60px;
+    width: 425px;
+    height: 205px;
+    border-radius: 15px;
+}
+#promoção3{
+    margin: 0px 0px 0px 60px;
+    width:425px;
+    height: 205px;
+    border-radius: 15px;
+}
+
+.buscas{
+  background-color: black;
+  border: 2px solid black;
+  width: 15px;
+  height: 15px;
+  margin: 65px 0px 0px 70px;
+  border-radius: 100px;
+}
+.escritabuscas{
+  margin: -53px 0px 0px 100px;
+  width: 276px;
+  font-size: 25px;
+  font-family: cursive;
+}
+.escritabuscas:hover{
+  color: purple;
+}
+.imagensbuscas{
+  margin: 20px 0px 0px 0px;
+  width: 1333px;
+  height: 120px;
+  border: 1px solid black;
+  border-radius: 15px
+}
+#imgproduto1{
+  margin: 0px 0px 0px 50px;
+  width: 100px;
+  height: 118px;
+  border-radius: 15px
+}
+#imgproduto2{
+  margin: 0px 0px 0px 85px;
+  width: 100px;
+  height: 118px;
+  border-radius: 15px
+}
+#imgproduto3{
+  margin: 0px 0px 0px 85px;
+  width: 100px;
+  height: 118px;
+  border-radius: 15px
+}
+#imgproduto4{
+  margin: 0px 0px 0px 85px;
+  width: 100px;
+  height: 118px;
+  border-radius: 15px
+}
+#imgproduto5{
+  margin: 0px 0px 0px 85px;
+  width: 100px;
+  height: 118px;
+  border-radius: 15px
+}
+#imgproduto6{
+  margin: 0px 0px 0px 85px;
+  width: 100px;
+  height: 118px;
+  border-radius: 15px
+}
+#imgproduto7{
+  margin: 0px 0px 0px 85px;
+  width: 100px;
+  height: 118px;
+  border-radius: 15px
+}
+.marcas{
+  background-color: black;
+  border: 2px solid black;
+  width: 15px;
+  height: 15px;
+  margin: 100px 0px 0px 70px;
+  border-radius: 100px;
+}
+.escritamarcas{
+  margin: -52px 0px 0px 100px;
+  width: 276px;
+  font-size: 25px;
+  font-family: cursive;
+}
+.escritamarcas:hover{
+  color: purple;
+}
+.imagenmarcas{
+  margin: 50px 0px 0px;
+  width: 1333px;
+  height: 120px;
+  border: 1px solid black;
+  border-radius: 15px
+}
+
+#imgmarca1{
+  margin: 0px 0px 0px 0px;
+  width: 200px;
+  height: 118px;
+  border-radius: 15px
+}
+#imgmarca2{
+  margin: 0px 0px 0px 21.5px;
+  width: 200px;
+  height: 118px;
+  border-radius: 15px
+}
+#imgmarca3{
+  margin: 0px 0px 0px 21.5px;
+  width: 200px;
+  height: 118px;
+  border-radius: 15px
+}
+#imgmarca4{
+  margin: 0px 0px 0px 21.5px;
+  width: 200px;
+  height: 118px;
+  border-radius: 15px
+}
+#imgmarca5{
+  margin: 0px 0px 0px 21.5px;
+  width: 200px;
+  height: 118px;
+  border-radius: 15px
+}
+#imgmarca6{
+  margin: 0px 0px 0px 21.5px;
+  width: 200px;
+  height: 118px;
+  border-radius: 15px
+}
+.categorias{
+  background-color: black;
+  border: 2px solid black;
+  width: 15px;
+  height: 15px;
+  margin: 65px 0px 0px 70px;
+  border-radius: 100px;
+}
+.escritacategorias:hover{
+  color: purple;
+}
+.escritacategorias{
+  margin: -53px 0px 0px 100px;
+  width: 276px;
+  font-size: 25px;
+  font-family: cursive;
+}
+#imgcategoria1{
+  margin: 0px 149.8px 0px 0px;
+  width: 200px;
+  height: 118px;
+  border-radius: 15px
+}
+#imgcategoria2{
+  margin: 0px 149.8px 0px 21.5px;
+  width: 200px;
+  height: 118px;
+  border-radius: 15px
+}
+#imgcategoria3{
+  margin: 0px 149.8px 0px 21.5px;
+  width: 200px;
+  height: 118px;
+  border-radius: 15px
+}
+#imgcategoria4{
+  margin: 0px 0px 0px 21.5px;
+  width: 200px;
+  height: 118px;
+  border-radius: 15px
+}
+.dicas{
+  background-color: white;
+  border: 2px solid black;
+  width: 1333.8px;
+  height: 210px;
+  margin: 80px 0px 0px 5px;
+  border-radius: 50px;
+}
+#imgdicas1{
+  margin: 0px 0px 0px 21.5px;
+  width: 200px;
+  height: 118px;
+  border-radius: 15px
+}
+#imgdicas2{
+  margin: 0px 0px 0px 21.5px;
+  width: 200px;
+  height: 118px;
+  border-radius: 15px
+}
+#imgdicas3{
+  margin: 0px 0px 0px 21.5px;
+  width: 200px;
+  height: 118px;
+  border-radius: 15px
+}
+.atendimento{
+  border: 1px solid black;
+  font-size: 14;
+  font-family: cursive;
+  width: 320px;
+  height: 180px;
+  margin: 10px 0px 0px 15px;
+  }
+  #cartao{
+    border: 1px solid black;
+    width: 320px;
+    height: 180px;
+    margin: -161.2px 0px 0px 330px;
+}
+#redes{
+  border: 1px solid black;
+  width: 320px;
+  height: 180px;
+  margin: -180px 0px 0px 662px;
+}
+#selo{
+  border: 1px solid black;
+  width: 320px;
+  height: 180px;
+  margin: -180px 0px 0px 995px;
+
+}
