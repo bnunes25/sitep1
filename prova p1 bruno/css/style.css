@@ -16,6 +16,13 @@
   height:151.5px;
   border-radius: 10px
 }
+input{
+width:380px ;
+height: 30px;
+margin: -2px 0px 0px -2px;
+border-radius: 5px;
+border: 1px solid black;
+}
 .busca{
   background-color: white;
   border: 2px solid black;
@@ -23,10 +30,10 @@
   height: 30px;
   margin: -155px 0px 0px 250px;
   border-radius: 5px;
+  font-family: cursive;
+  font-size: 40;
 }
-.escritabuscas:hover{
-color: purple;
-}
+
 .rastreamento{
   font-family: cursive;
   font-size: 20;
@@ -83,25 +90,96 @@ background-color: purple;
   margin: -26px 0px 0px 120px;
   height:23px ;
   width:23px ;
-
-
 }
-
 .opções{
   background-color: white;
-  border: 2px solid black;
+  border: 2px solid white;
   width: 1026.3px;
   height: 40px;
   margin: 45px 0px 0px 280px;
   border-radius: 5px;
 }
 
-.opções:hover{
+#seta{
+  margin: 0px 0px 0px 47px;
+  width:23px;
+  height: 23px;
+}
+#seta1{
+  margin: 0px 0px 0px px;
+  width: 23px;
+  height: 23px;
+}
+.op1{
+  border: 2px solid black;
+  width: 150px;
+  height: 40px;
+  margin: -40px 0px 0px 280px;
+  font-family: cursive;
+  font-size: 20;
+}
+.op1:hover{
+  background-color: purple
+}
+
+.op2{
+  border: 2px solid black;
+  width: 150px;
+  height: 40px;
+  margin: -40px 0px 0px 450px;
+  font-family: cursive;
+  font-size: 20;
+}
+.op2:hover{
+  background-color: purple
+}
+.op3{
+  border: 2px solid black;
+  width: 150px;
+  height: 40px;
+  margin: -40px 0px 0px 620px;
+  font-family: cursive;
+  font-size: 20;
+}
+.op3:hover{
+  background-color: purple
+}
+.op4{
+  border: 2px solid black;
+  width: 150px;
+  height: 40px;
+  margin: -40px 0px 0px 790px;
+  font-family: cursive;
+  font-size: 20;
+}
+.op4:hover{
+  background-color: purple
+}
+.op5{
+  border: 2px solid black;
+  width: 150px;
+  height: 40px;
+  margin: -40px 0px 0px 960px;
+  font-family: cursive;
+  font-size: 16;
+}
+.op5:hover{
+  background-color: purple
+}
+.op6{
+  border: 2px solid black;
+  width: 150px;
+  height: 40px;
+  margin: -40px -10px 0px 1130px;
+  font-family: cursive;
+  font-size: 20;
+}
+.op6:hover{
   background-color: purple
 }
 .ofertas{
   background-color: white;
-  border: 2px solid black;
+  border: 2px solid white;
   width: 1333.8px;
   height: 210px;
   margin: 80px 0px 0px 5px;
@@ -135,9 +213,9 @@ background-color: purple;
   border-radius: 100px;
 }
 .escritabuscas{
-  margin: -53px 0px 0px 100px;
-  width: 276px;
-  font-size: 25px;
+  margin: -80px 0px 0px 100px;
+  width: 500px;
+  font-size: 40;
   font-family: cursive;
 }
 .escritabuscas:hover{
@@ -147,7 +225,7 @@ background-color: purple;
   margin: 20px 0px 0px 0px;
   width: 1333px;
   height: 120px;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 15px
 }
 #imgproduto1{
@@ -192,18 +270,95 @@ background-color: purple;
   height: 118px;
   border-radius: 15px
 }
+.prod1{
+  border: 1px solid white;
+  width:110;
+  height: 80;
+  margin:0px 0px 0px 40px;
+  font-family: cursive;
+  font-size: 16
+}
+.prod1:hover{
+color: purple
+}
+.prod2{
+  border: 1px solid white;
+  width:110;
+  height: 80;
+  margin:-80px 0px 0px 230px;
+  font-family: cursive;
+  font-size: 16
+}
+.prod2:hover{
+color: purple
+}
+.prod3{
+  border: 1px solid white;
+  width:110;
+  height: 80;
+  margin:-80px 0px 0px 425px;
+  font-family: cursive;
+  font-size: 16
+}
+.prod3:hover{
+color: purple
+}
+.prod4{
+  border: 1px solid white;
+  width:110;
+  height: 80;
+  margin:-80px 0px 0px 620px;
+  font-family: cursive;
+  font-size: 16
+}
+.prod4:hover{
+color: purple
+}
+.prod5{
+  border: 1px solid white;
+  width:110;
+  height: 80;
+  margin:-80px 0px 0px 800px;
+  font-family: cursive;
+  font-size: 16
+}
+.prod5:hover{
+color: purple
+}
+.prod6{
+  border: 1px solid white;
+  width:110;
+  height: 80;
+  margin:-80px 0px 0px 1000px;
+  font-family: cursive;
+  font-size: 16
+}
+.prod6:hover{
+color: purple
+}
+.prod7{
+  border: 1px solid white;
+  width:110;
+  height: 80;
+  margin:-80px 0px 0px 1190px;
+  font-family: cursive;
+  font-size: 16
+}
+.prod7:hover{
+color: purple
+}
 .marcas{
   background-color: black;
   border: 2px solid black;
   width: 15px;
   height: 15px;
-  margin: 100px 0px 0px 70px;
+  margin: 50px 0px 0px 70px;
   border-radius: 100px;
 }
 .escritamarcas{
-  margin: -52px 0px 0px 100px;
-  width: 276px;
-  font-size: 25px;
+  margin: -80px 0px 0px 100px;
+  width: 500px;
+  font-size: 40;
   font-family: cursive;
 }
 .escritamarcas:hover{
@@ -213,43 +368,43 @@ background-color: purple;
   margin: 50px 0px 0px;
   width: 1333px;
   height: 120px;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 15px
 }
 
 #imgmarca1{
-  margin: 0px 0px 0px 0px;
-  width: 200px;
+  margin: 0px 0px 0px 100px;
+  width: 150px;
   height: 118px;
   border-radius: 15px
 }
 #imgmarca2{
-  margin: 0px 0px 0px 21.5px;
-  width: 200px;
+  margin: 0px 0px 0px 35px;
+  width: 150px;
   height: 118px;
   border-radius: 15px
 }
 #imgmarca3{
-  margin: 0px 0px 0px 21.5px;
-  width: 200px;
+  margin: 0px 0px 0px 35px;
+  width: 150px;
   height: 118px;
   border-radius: 15px
 }
 #imgmarca4{
-  margin: 0px 0px 0px 21.5px;
-  width: 200px;
+  margin: 0px 0px 0px 35px;
+  width: 150px;
   height: 118px;
   border-radius: 15px
 }
 #imgmarca5{
-  margin: 0px 0px 0px 21.5px;
-  width: 200px;
+  margin: 0px 0px 0px 35px;
+  width: 150px;
   height: 118px;
   border-radius: 15px
 }
 #imgmarca6{
-  margin: 0px 0px 0px 21.5px;
-  width: 200px;
+  margin: 0px 0px 0px 35px;
+  width: 150px;
   height: 118px;
   border-radius: 15px
 }
@@ -265,59 +420,104 @@ background-color: purple;
   color: purple;
 }
 .escritacategorias{
-  margin: -53px 0px 0px 100px;
-  width: 276px;
-  font-size: 25px;
+  margin: -80px 0px 0px 100px;
+  width: 500px;
+  font-size: 40;
   font-family: cursive;
 }
 #imgcategoria1{
-  margin: 0px 149.8px 0px 0px;
-  width: 200px;
-  height: 118px;
+  margin: 0px 149.8px 0px 50px;
+  width: 150px;
+  height: 90px;
   border-radius: 15px
 }
 #imgcategoria2{
-  margin: 0px 149.8px 0px 21.5px;
-  width: 200px;
-  height: 118px;
+  margin: 0px 180px 0px 90px;
+  width: 150px;
+  height: 90px;
   border-radius: 15px
 }
 #imgcategoria3{
-  margin: 0px 149.8px 0px 21.5px;
-  width: 200px;
-  height: 118px;
+  margin: 0px 90px 0px 8px;
+  width: 150px;
+  height: 90px;
   border-radius: 15px
 }
 #imgcategoria4{
-  margin: 0px 0px 0px 21.5px;
-  width: 200px;
-  height: 118px;
+  margin: 0px 50px 0px 70px;
+  width: 150px;
+  height: 90px;
   border-radius: 15px
 }
+.cat1{
+  border: 1px solid white;
+  width: 150px;
+  height: 50px;
+  font-family: cursive;
+  font-size: 20;
+  margin: -1px 0px 0px 70px;
+}
+.cat1:hover{
+  color: purple
+}
+.cat2{
+  border: 1px solid white;
+  width: 150px;
+  height: 50px;
+  font-family: cursive;
+  font-size: 20;
+  margin: -50px 100px 0px 440px;
+}
+.cat2:hover{
+  color: purple
+}
+.cat3{
+  border: 1px solid white;
+  width: 150px;
+  height:50px;
+  font-family: cursive;
+  font-size: 20;
+  margin: -50px 0px 0px 780px;
+}
+.cat3:hover{
+  color: purple
+}
+.cat4{
+  border: 1px solid white;
+  width: 150px;
+  height: 50px;
+  font-family: cursive;
+  font-size: 20;
+  margin: -50px 200px 0px 1110px;
+}
+.cat4:hover{
+  color: purple
+}
+
 .dicas{
   background-color: white;
-  border: 2px solid black;
+  border: 2px solid white;
   width: 1333.8px;
   height: 210px;
-  margin: 80px 0px 0px 5px;
+  margin: 40px 0px 0px 5px;
   border-radius: 50px;
 }
 #imgdicas1{
-  margin: 0px 0px 0px 21.5px;
-  width: 200px;
-  height: 118px;
+  margin: 0px 0px 0px 60px;
+  width: 400px;
+  height: 210px;
   border-radius: 15px
 }
 #imgdicas2{
-  margin: 0px 0px 0px 21.5px;
-  width: 200px;
-  height: 118px;
+  margin: 0px 0px 0px 0px;
+  width: 400px;
+  height: 210px;
   border-radius: 15px
 }
 #imgdicas3{
-  margin: 0px 0px 0px 21.5px;
-  width: 200px;
-  height: 118px;
+  margin: 0px 0px 0px 0px;
+  width: 400px;
+  height: 210px;
   border-radius: 15px
 }
 .atendimento{
@@ -326,24 +526,369 @@ background-color: purple;
   font-family: cursive;
   width: 320px;
   height: 180px;
-  margin: 10px 0px 0px 15px;
+  margin: 30px 0px 0px 15px;
   }
-  #cartao{
+  #carta{
     border: 1px solid black;
     width: 320px;
     height: 180px;
-    margin: -161.2px 0px 0px 330px;
+    margin: -180px 0px 0px 330px;
 }
 #redes{
   border: 1px solid black;
   width: 320px;
   height: 180px;
-  margin: -180px 0px 0px 662px;
+  margin: -162px 0px 0px 662px;
 }
 #selo{
   border: 1px solid black;
   width: 320px;
   height: 180px;
   margin: -180px 0px 0px 995px;
+}
 
+
+
+
+
+
+.volta{
+  border: 2px solid black;
+  border-radius: 3px;
+  width: 100px;
+  height: 30px;
+  margin: 0px 0px 0px 0px;
+  font-size: 20;
+  font-family: cursive;
+}
+.comp1{
+  border: 2px solid white;
+  width: 400px;
+  height: 500px;
+  margin: 50px 0px 0px 140px;
+}
+#imgcomp{
+  width: 300;
+  height: 500;
+  margin: 0px 0px 0px 50px;
+}
+#imgcomp1{
+  width: 300;
+  height: 500;
+  margin: 0px 0px 0px 50px;
+}
+#imgcomp2{
+  width: 300;
+  height: 500;
+  margin: 0px 0px 0px 50px;
+}
+#imgcomp3{
+  width: 300;
+  height: 500;
+  margin: 0px 0px 0px 50px;
+}
+#imgcomp4{
+  width: 300;
+  height: 500;
+  margin: 0px 0px 0px 50px;
+}
+#imgcomp5{
+  width: 300;
+  height: 500;
+  margin: 0px 0px 0px 50px;
+}
+#imgcomp6{
+  width: 300;
+  height: 500;
+  margin: 0px 0px 0px 50px;
+}
+.nome{
+  border: 2px solid white;
+  width: 500;
+  height: 50;
+  margin: -520px 0px 0px 520px;
+  font-size: 30;
+  font-family: cursive;
+}
+.preço1{
+  border: 2px solid white;
+  width: 300px;
+  height: 40px;
+  margin: 0px 0px 0px 540px;
+  font-size: 25;
+  font-family: cursive;
+}
+.info1{
+  border: 2px solid white;
+  width: 500px;
+  height: 160px;
+  margin: 0px 0px 0px 540px;
+  font-size: 16;
+  font-family: cursive;
+}
+.imgcart{
+  border: 1px solid white;
+  width: 50px;
+  height: 50px;
+  margin: 10px 0px 0px 580px
+  }
+#cartao{
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  margin: 0px 0px 0px 0px;
+}
+.pag1{
+  border: 1px solid white;
+  width: 200px;
+  height: 30px;
+  margin: -40px 0px 0px 630px;
+  font-size: 16;
+  font-family: cursive;
+}
+.imgfret{
+  border: 1px solid white;
+  width: 50px;
+  height: 50px;
+  margin: 15px 0px 0px 580px;
+  }
+#imgfrete{
+  width: 45px;
+  height: 45px;
+  margin: 0px 0px 0px 0px;
+}
+.infret{
+  border: 1px solid white;
+  width: 200px;
+  height: 30px;
+  margin: -40px 0px 0px 630px;
+  font-size: 16;
+  font-family: cursive;
+}
+.quant1{
+  border: 1px solid white;
+  width: 100px;
+  height: 30px;
+  font-size: 16;
+  font-family:cursive;
+  margin: 15px 0px 0px 620px;
+}
+.numquant1{
+  border: 1px solid white;
+  width: 50px;
+  height:30px;
+  font-size: 16;
+  font-family: cursive;
+  margin: -30.5px 0px 0px 720px;
+  border-radius: 10px;
+}
+.compra{
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 30;
+  font-family: cursive;
+  margin: 10px 0px 0px 650px;
+}
+.corafavo{
+  border-radius: 5px;
+  border: 1px solid white;
+  width: 90px;
+  height: 43px;
+  margin: 10px 0px 0px 610px;
+}
+#coracao{
+  width: 90px;
+  height: 43px;
+  margin: -1px 0px 0px -1px
+}
+.corafavo:hover{
+  background-color: red
+}
+.carri{
+border-radius: 5px;
+  border: 1px solid white;
+  width: 90px;
+  height: 43px;
+  margin: -43px 0px 0px 810px
+}
+.carri:hover{
+  background-color: red
+}
+#imgcarro{
+  width:40px ;
+  height:40px ;
+  margin: 0px 0px 0px 19px;
+}
+
+.addfavo{
+  border: 1px solid white;
+  width: 120px;
+  height: 50px;
+  font-size: 16;
+  font-family:cursive;
+  margin: 0px 0px 0px 595px;
+  }
+  .addcarri{
+    border: 1px solid white;
+    width: 120px;
+    height: 50px;
+    font-size: 16;
+    font-family:cursive;
+    margin: -50px 0px 0px 795px;
+}
+.class{
+  border: 1px solid white;
+  width: 350px;
+  height: 40px;
+  margin: -35px 0px 0px 165px;
+  font-size: 20;
+  font-family: cursive;
+}
+#classf{
+  width: 100px;
+  height: 30px;
+  margin: 0px 0px 0px 40px
+}
+.anuncio{
+  border:1px solid white;
+  width: 230px;
+  height: 930px;
+  margin: -600px 0px 0px 1100px;
+}
+#anuncio1{
+  border: 1px solid white;
+  width: 230px;
+  height: 300px;
+  margin:0px 0px 0px 0px  ;
+}
+#anuncio2{
+  border: 1px solid white;
+  width: 230px;
+  height: 300px;
+  margin: 0px 0px 0px 0px;
+}
+#anuncio3{
+  border: 1px solid white;
+  width: 230px;
+  height:300px ;
+  margin:0px 0px 0px 0px ;
+}
+.prodsug{
+  border: 1px solid white;
+  width: 400px;
+  height: 60px;
+  font-size: 25;
+  font-family: cursive;
+  margin: -310px 0px 0px 10px;
+}
+.prosug{
+  border: 1px solid white;
+  width: 1100px;
+  height: 100px;
+  margin: 10px 0px 0px 0px;
+}
+#pro1{
+  border: 1px solid white;
+  width: 100px;
+  height: 100px;
+  margin:0px 0px 0px 35px;
+}
+#pro2{
+  border: 1px solid white;
+  width: 100px;
+  height: 100px;
+  margin:0px 0px 0px 80px;
+}
+#pro3{
+  border: 1px solid white;
+  width: 100px;
+  height: 100px;
+  margin:0px 0px 0px 80px;
+}
+#pro4{
+  border: 1px solid white;
+  width: 100px;
+  height: 100px;
+  margin:0px 0px 0px 80px;
+}
+#pro5{
+  border: 1px solid white;
+  width: 100px;
+  height: 100px;
+  margin:0px 0px 0px 80px;
+}
+#pro6{
+  border: 1px solid white;
+  width: 100px;
+  height: 100px;
+  margin:0px 0px 0px 80px;
+}
+.pdt1{
+  border: 1px solid white;
+  width: 118px;
+  height: 70px;
+  margin: 0px 0px 0px 25.5px;
+  font-size: 14;
+  font-family: cursive;
+}
+.pdt1:hover{
+  color: purple
+}
+.pdt2{
+  border: 1px solid white;
+  width: 118px;
+  height: 70px;
+  margin: -70px 0px 0px 210.5px;
+  font-size: 14;
+  font-family: cursive;
+}
+.pdt2:hover{
+  color: purple
+}
+.pdt3{
+  border: 1px solid white;
+  width: 118px;
+  height: 70px;
+  margin: -70px 0px 0px 395px;
+  font-size: 14;
+  font-family: cursive;
+}
+.pdt3:hover{
+  color: purple
+}
+.pdt4{
+  border: 1px solid white;
+  width: 118px;
+  height: 70px;
+  margin: -70px 0px 0px 579px;
+  font-size: 14;
+  font-family: cursive;
+}
+.pdt4:hover{
+  color: purple
+}
+.pdt5{
+  border: 1px solid white;
+  width: 118px;
+  height: 70px;
+  margin: -70px 0px 0px 763px;
+  font-size: 14;
+  font-family: cursive;
+}
+.pdt5:hover{
+  color: purple
+}
+.pdt6{
+  border: 1px solid white;
+  width: 118px;
+  height: 70px;
+  margin: -70px 0px 0px 947px;
+  font-size: 14;
+  font-family: cursive;
+}
+.pdt6:hover{
+  color: purple
 }
